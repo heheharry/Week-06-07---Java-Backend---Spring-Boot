@@ -1,0 +1,5 @@
+package com.Bridgelabz.Addressbook.model;
+
+public class AddressBookData {
+
+}

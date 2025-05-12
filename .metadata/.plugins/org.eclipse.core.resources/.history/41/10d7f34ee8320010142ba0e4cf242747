@@ -1,0 +1,5 @@
+package com.Bridgelabz.Addressbook.repository;
+
+public interface AddressBookRepository {
+
+}

@@ -1,0 +1,28 @@
+package com.Bridgelabz.Addressbook.controller;
+
+import com.Bridgelabz.Addressbook.dto.AddressDTO;
+import com.Bridgelabz.Addressbook.model.AddressBookData;
+import com.Bridgelabz.Addressbook.service.AddressBookService_2;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/addressbook")
+public class AddressBookController {
+
+    @Autowired
+    private AddressBookService_2 addressBookService;
+
+    @GetMapping
+    public ResponseEntity<List<AddressBookData>> getAll() {
+        return ResponseEntity.ok(addressBookService.getAll());
+    }
+
+    @PostMapping
+    public ResponseEntity<AddressBookData> create(@RequestBody AddressDTO dto) {
+        return ResponseEntity.ok(addressBookService.create(dto));
+    }
+}

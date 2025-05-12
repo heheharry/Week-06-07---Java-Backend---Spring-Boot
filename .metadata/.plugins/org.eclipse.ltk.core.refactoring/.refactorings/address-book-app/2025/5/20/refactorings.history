@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.Bridgelabz.Addressbook.controller&apos; to &apos;address-book-app/src/main/java/com.Bridgelabz.Addressbook&apos;&#x0D;&#x0A;- Original project: &apos;address-book-app&apos;&#x0D;&#x0A;- Destination element: &apos;address-book-app/src/main/java/com.Bridgelabz.Addressbook&apos;&#x0D;&#x0A;- Original element: &apos;address-book-app/src/main/java/com.Bridgelabz.Addressbook.controller&apos;" description="Copy package" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Bridgelabz.Addressbook" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Bridgelabz.Addressbook.controller" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1747462876858" version="1.0"/>
+</session>

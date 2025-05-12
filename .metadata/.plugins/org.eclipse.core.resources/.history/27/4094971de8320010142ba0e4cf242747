@@ -1,0 +1,5 @@
+package com.Bridgelabz.Addressbook.dto;
+
+public class AddressDTO {
+
+}
